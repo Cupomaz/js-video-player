@@ -1,0 +1,32 @@
+#vid-box {
+  position: relative;
+  width: min-content;
+}
+
+#controls-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 10px;
+  left: 7px;
+  width: 95%;
+}
+
+#vid-box i {
+  pointer-events: none;
+}
+
+#vid-box button {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  float: left;
+}
+
+div[name="inputBox"]{
+  width: 100%;
+}
+
+div[name="inputBox"] input{
+  width: 100%;
+}
